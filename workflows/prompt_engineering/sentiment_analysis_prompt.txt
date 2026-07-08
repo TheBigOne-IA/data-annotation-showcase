@@ -1,0 +1,22 @@
+You are a specialist in data annotation for sentiment analysis.
+
+Your task is to classify each customer review as:
+- POSITIVE (happy, satisfied, recommend)
+- NEGATIVE (angry, disappointed, complain)
+- NEUTRAL (objective, factual, no strong emotion)
+
+Instructions:
+1. Read each review carefully.
+2. Consider the context and tone.
+3. If ambiguous, choose the most likely sentiment.
+4. Return the result in CSV format: "text,sentiment"
+
+Example:
+"I love this product!" → POSITIVE
+"The delivery was late." → NEUTRAL
+"This is the worst service ever." → NEGATIVE
+
+Here is the list of reviews to classify:
+[INSERT REVIEWS HERE]
+
+Return only the CSV results, no additional text.
